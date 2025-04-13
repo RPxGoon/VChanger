@@ -14,7 +14,7 @@ class VoiceChangerApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Voice Changer")
+        self.title("VChanger")
         self.geometry("800x600")
         self.resizable(False, False)
 
@@ -52,7 +52,7 @@ class VoiceChangerApp(ctk.CTk):
         self.sidebar = ctk.CTkFrame(self, width=160, corner_radius=0)
         self.sidebar.pack(side="left", fill="y")
 
-        title = ctk.CTkLabel(self.sidebar, text="Voice Changer", font=("Arial", 20, "bold"))
+        title = ctk.CTkLabel(self.sidebar, text="VChanger", font=("Arial", 20, "bold"))
         title.pack(pady=(20, 10))
 
         self.start_button = ctk.CTkButton(self.sidebar, text="Start", command=self.start_voice_changer)
