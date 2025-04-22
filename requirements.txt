@@ -2,3 +2,5 @@ customtkinter
 numpy
 sounddevice
 scipy
+matplotlib
+pillow
